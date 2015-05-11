@@ -1,0 +1,27 @@
+The main branch is called master in Git.
+Master points to the latest commitment, and HEAD
+points to current branch.
+After each commitment, the master moves one step.
+
+Create dev branch :
+$ git checkout -b dev
+(with "-b" means create and switch to)
+$ git branch dev
+$ git checkout dev
+
+To check current branch,
+use commmand,
+$ git branch
+
+After adding some files in dev, 
+you can switch to master by using command,
+$ git checkout master
+
+Now we can merge what have done on dev to master
+by using command,
+$ git merge dev 
+
+After having merged, you can delete dev
+by using command,
+$ git branch -d dev
+
