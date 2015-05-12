@@ -1,0 +1,7 @@
+To check the state of reppsitory,
+before or after commit has difference,
+use command,
+$ git status
+
+To look what has been changed
+$ git diff

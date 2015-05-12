@@ -1,0 +1,14 @@
+Working directory is the directory 
+you can see on computer.
+For an example, learngit.
+
+There is a hidden directory in working directory,
+name of which is ".git".
+It's the repository of Git.
+There are a lot of things stored in repository of Git.
+The most important things in it is index, first branch 
+Git created for us named "master", and a pointer pointing 
+to master named "HEAD".
+
+The command "git add" actually adds the file to stage(index).
+And the command "git commit" submits all content in stage to current branch.

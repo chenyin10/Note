@@ -1,0 +1,11 @@
+To initialize a git repository,
+cd to the dir of the repository
+then use command, 
+$ git init
+
+To add file to git repository,
+while in git dir
+then use command,
+$ git add xxx.txt
+$ git commit -m "wrote a xxx.txt"
+

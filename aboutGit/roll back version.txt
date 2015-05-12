@@ -1,0 +1,16 @@
+Git uses commit_id to record all the changes of version.
+To check your git record, use the command ,
+$ git log --pretty=oneline
+
+In Git, HEAD means the current version, and HEAD^ means the last version.
+We can also use HEAD^100 to express last 100 version.
+To roll back last version, we can use command,
+$ git reset --hard HEAD^
+
+we can use the commit_id to roll back.Suppose some version's commit_id is 3268164....,
+we can roll back by using the command,
+$ git reset --hard 3268164
+
+Git provides a command recording all the commands you have done, 
+$ git reflog
+You can know the commit_id which has been eliminated because of your using reset.
