@@ -1,0 +1,12 @@
+First you need to create repository in GitHub.
+To associate with a remote repository,
+use command,
+$ git remote add origin git@server-name:path/repo-name.git
+
+After adding, the default name of the remote repository is origin.
+
+To push your local repository to GitHub,
+use command,
+$ git push origin master
+(For the first time, use "git push -u origin master",
+which not only push but also associates with remote repository)

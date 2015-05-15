@@ -1,0 +1,4 @@
+To clone a remote repository, you need to know its address.
+Then use command,
+$ git clone git@server-name:path/repo-name.git
+

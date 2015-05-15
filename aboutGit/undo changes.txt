@@ -1,0 +1,14 @@
+Before "git add" :
+To give up the modification in working directory,
+use the command,
+$ git checkout -- file
+If without "--", the command turns to create a new branch.
+
+After "git add" but before "git commit" :
+To unstage, use the command,
+$ git reset HEAD file
+The command "git reset" can both roll back version
+and give up all the modifications submitted to stage.
+
+After "git commit" :
+Look up "roll back version" chapter.
