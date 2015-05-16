@@ -1,0 +1,12 @@
+Git manages all the modifications.After using "git add",
+your modification will be put into stage.
+And "git commit" is just responsible for submitting
+all the modifications in the stage.
+
+If you wanna check the difference between the file in
+working directory and the file in the latest stage,
+use the command,
+$ git diff HEAD -- something
+(something is a some specific file)
+
+If you don't add, you can't commit.

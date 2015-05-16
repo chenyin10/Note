@@ -1,0 +1,8 @@
+The working directory and the version repository
+is conflicting because you have removed some file.
+
+If you do want to delete the file from repository :
+use "git rm" and "git commit"
+
+Else :
+& git checkout -- file

@@ -1,0 +1,13 @@
+You can actually set up a server running Git, 
+but in current stage, it's just making a fuss
+to set up a server just for learning git.
+
+GitHub provides services of Git repository management.
+You can get remote Git repository for free as long as 
+you register a account.
+
+The transmission between your local git repository and
+GitHub repository is cryptographic by SSH.
+
+Why GitHub needs SSH? Because it needs to know
+the truth that you do push your submission.
